@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Disha Kansagara</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script src="Script/script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Retro Bistro</h1>
+    </header>
+
+    <nav id="na">
+        <a href="index.html">Home</a>&nbsp;
+        <a href="menu.html">Menu</a>&nbsp;
+        <a href="contact.html">Contact</a>&nbsp;
+        <a href="reservation.html">Reservation</a>&nbsp;
+
+    </nav>
+    
+
+    <main>
+        <div class="reserve">
+        <div class="col">
+             <h3 style="color:#1a863b ">Reserve your table</h3> 
+                <form action="Response_reservation.html"  onsubmit="return validate()">
+                    <label for="fname">Name</label>
+                    <input type="text" id="f_name" name="firstname" placeholder="Your firstname and Lastname" required>
+                    
+                    <label for="number">Number</label>
+                    <input type="tel" id="number" name="number" placeholder="Your contact number" required>
+                    <label for="email">E-mail Address</label><br>
+                    <input type="email" id="email" name="email" placeholder="Your Email address" required><br>
+                    <label for="person">Number of person</label><br>
+                   <input type="number" name="person"  value="1" min="1" max="50" onsubmit="return validate()"><br>
+                    <label for="date">Date</label><br>
+                    <input type="text" id="datepicker" name="date" min="date"  title="Please enter date in the range of one month from today"required><br>
+                    <label for="time">Preffered Time</label><br>
+                   <input type="time" name="time" id="timepicker" title="Please refer the restaurant opening hours for the time selection"><br>
+                    <label for="Note">Message</label>
+                    <textarea id="note" name="note" placeholder="Write Your message" style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <p>Retro Bistro &copy; 2018, Disha Kansagara</p>
+          <p>Follow us on :<a href="https://twitter.com/" target="_blank"><img src="images/300px-Twitter_bird_logo_2012.svg.png" width="30" height="30" title="twitter" alt="twitter"></a>
+    <a href="https://www.facebook.com" target="_blank"><img src="images/Facebook_logo_(square).png" width="30" height="30" title="Facebook" alt="facebook"></a>
+    <a href="https://www.instagram.com" target="_blank"><img src="images/800px-Instagram_logo_2016.svg.png" width="30" height="30" title="instagram" alt="instagram"></a></p>
+    </footer>
+
+
+</body>
+
+</html>

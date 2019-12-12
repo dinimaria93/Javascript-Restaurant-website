@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dini George</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="Script/script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Retro Bistro</h1>
+    </header>
+
+    <nav id="na">
+        <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="contact.html">Contact</a>
+                <a href="reservation.html">Reservation</a>
+
+
+    </nav>
+    <main>
+        <!-- Contact -->
+        <div class="contact">
+            <div>
+                <h2 id="contacth2">Contact Us</h2>
+
+            </div>
+            <div>
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=retro%20bistro%20%2C%20guelph&t=&z=13&ie=UTF8&iwloc=&output=embed" ></iframe><a href="https://www.pureblack.de">pureblack.de</a></div>
+                </div>
+                
+            </div>
+            <div>
+                <p><b> Email us: <em>retro@bistro.com</em></b></p>
+                <p><b>Call us:1-800-525-8963</b></p>
+            </div>
+
+            <div class="col">
+			<form action="response.html" method="get"
+    	name="response_form" id="response_form">
+             <h3 id="contacth3">For Any Inquiry</h3> 
+                <form action="/action_page.php" response="response.html" onsubmit="return validate_contact()">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name" required>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name" required>
+                    <label for="number">Number</label>
+                    <input type="tel" id="number" name="number" placeholder="xxxxxxxxxx" required>
+                    <label for="email">E-mail Address</label><br>
+                    <input type="email" id="email" name="email" placeholder="Your Email address" required><br>
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder="Write Your message" style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Retro Bistro &copy; 2018, Dini George</p>
+		  <p>Follow us on :<a href="https://twitter.com/" target="_blank"><img src="images/300px-Twitter_bird_logo_2012.svg.png" width="30" height="30" title="twitter" alt="twitter"></a>
+    <a href="https://www.facebook.com" target="_blank"><img src="images/Facebook_logo_(square).png" width="30" height="30" title="Facebook" alt="facebook"></a>
+    <a href="https://www.instagram.com" target="_blank"><img src="images/800px-Instagram_logo_2016.svg.png" width="30" height="30" title="instagram" alt="instagram"></a></p>
+	</footer>
+
+
+</body>
+
+</html>

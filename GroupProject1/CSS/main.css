@@ -1,0 +1,340 @@
+/*style for the body*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/*style for the heading1*/
+h1 {
+    background-color: #ffffff;
+    color: #000000;
+
+    line-height: 200%;
+    font-size: 4em;
+    font-family: Century gothic, Georgia, "Times New Roman", serif;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 0.5px #ffffff;
+    margin-bottom: 0px;
+}
+
+/*style for the image slide show in Menu page*/
+.sld img {
+    width: 100%;
+    height: 700px;
+    ;
+    margin-left: 0;
+}
+
+/*style for navigation bar*/
+nav a {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    font-size: 1em;
+
+
+}
+
+#na {
+    font-weight: bold;
+    word-spacing: 1em;
+    font-size: 1.3em;
+    text-align: center;
+    letter-spacing: 0.1em;
+    background-color: #ffffff;
+    line-height: 200%;
+    background-color: #1a863b;
+
+}
+
+nav a:visited {
+    color: #afafaf;
+}
+
+/* the styles for the main content in the Menu page*/
+main {
+    padding-top: 40px;
+    clear: left;
+    width: 80%;
+    float: right;
+}
+
+main li {
+    line-height: 150%;
+    font-size: 2em;
+}
+
+main img {
+    float: right;
+    width: 45%;
+    padding-right: 150px;
+}
+
+aside {
+    width: 20%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* the styles for the json files in Menu page*/
+#nav_list ul {
+    padding-top: 20px;
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 1.5em;
+}
+
+#nav_list li {
+    width: 80%;
+    margin-bottom: .5em;
+    border: 2px double #ffffff;
+    background-color: #1a863b;
+
+
+}
+
+#nav_list li a {
+    display: block;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: .5em 0 .5em 1em;
+}
+
+/* the styles for the footer */
+footer {
+    padding: 1em 0;
+    clear: both;
+}
+
+
+footer p {
+    text-align: center;
+}
+
+/*Style for the slide show in Menu page*/
+#slide {
+    margin: 50px auto;
+    position: relative;
+    width: 1200px;
+    height: 650px;
+    padding: 10px;
+}
+
+#slide > div {
+    position: absolute;
+
+}
+
+/*style for the Tabs in Menu Page*/
+#tabs li {
+    float: left;
+    list-style: none;
+    background-color: #1a863b;
+
+}
+
+#tabs {
+    padding-left: 15%;
+}
+
+#tabs li a {
+
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1a863b;
+    ;
+    background-color: #ffffff;
+    display: block;
+    line-height: 200%;
+    padding: 0 30px 0 30px;
+    text-decoration: none;
+    outline: none;
+
+}
+
+a {
+    cursor: pointer;
+}
+
+
+#tabs li a:hover,
+#tabs li a.inactive:hover {
+
+
+    color: #1a863b;
+    background-color: white;
+    outline: none;
+}
+
+
+#tabs li a.inactive {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    ;
+    background-color: #1a863b;
+    display: block;
+    line-height: 200%;
+    text-decoration: none;
+    outline: none;
+
+}
+
+.container {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+/*end of Menu page*/
+
+
+/* About page */
+.about {
+    color: #1a863b;
+}
+
+.main_content {
+    margin: 0;
+    max-width: 900px;
+    text-align: left;
+    
+
+}
+
+.main_content h3 {
+    color: #1a863b;
+}
+
+
+
+
+/* Style inputs */
+input[type=text],
+email,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=tel] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+input[type=date] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=time] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* contact section */
+.contact {
+    max-width: 900px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Contact */
+
+* {
+    box-sizing: border-box;
+}
+
+.col {
+    text-align: left;
+    width: 100%;
+    margin-top: 6px;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .col,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.reserve {
+    max-width: 900px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+#contacth2 {color: #1a863b;}
+#contacth3 {color:#1a863b;}
+
+
+
+.mapouter {
+    text-align: right;
+    height: 300px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 300px;
+    width: 800px;
+}
